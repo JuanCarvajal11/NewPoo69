@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <!DOCTYPE html>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
@@ -98,7 +97,6 @@
           </a>
         </li>
         <?php } ?>
-      ?>
     </ul>
   </div>
   <section class="home-section">
@@ -172,6 +170,8 @@
           <div class="sales-details">
             <ul class="details">
               <li class="topic">Date</li>
+              <li><a href="#">02 Jan 2021</a></li>
+              <li><a href="#">02 Jan 2021</a></li>
               <li><a href="#">02 Jan 2021</a></li>
               <li><a href="#">02 Jan 2021</a></li>
               <li><a href="#">02 Jan 2021</a></li>
@@ -286,7 +286,7 @@
   </section>
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-  <script>
+  <!-- <script>
     let sidebar = document.querySelector(".sidebar");
     let sidebarBtn = document.querySelector(".sidebarBtn");
     sidebarBtn.onclick = function() {
@@ -296,7 +296,7 @@
       } else
         sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
     }
-  </script>
+  </script> -->
   <script>
     const Toast = Swal.mixin({
       toast: true,
